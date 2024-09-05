@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/toqa-portfolio/static/css/main.f855e6bc.css",
+    "main.js": "/toqa-portfolio/static/js/main.3cff2644.js",
+    "static/js/453.0cf896b2.chunk.js": "/toqa-portfolio/static/js/453.0cf896b2.chunk.js",
+    "static/media/logo.svg": "/toqa-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/toqa-portfolio/index.html",
+    "main.f855e6bc.css.map": "/toqa-portfolio/static/css/main.f855e6bc.css.map",
+    "main.3cff2644.js.map": "/toqa-portfolio/static/js/main.3cff2644.js.map",
+    "453.0cf896b2.chunk.js.map": "/toqa-portfolio/static/js/453.0cf896b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.3cff2644.js"
+  ]
+}
