@@ -29,16 +29,10 @@ import SkillsShow from './components/SkillsShow/SkillsShow';
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
-import Games from './components/Projects/components/Games'
-import FigmaProjects from './components/Projects/components/FigmaProjects'
-import Tools from './components/Projects/components/Tools'
-import ReactProjects from './components/Projects/components/ReactProjects'
-import ScssProjects from './components/Projects/components/ScssProjects'
-import Test from './components/Projects/components/Test'
 
-// <Home />
-// <BrowserRouter>
-// </BrowserRouter>
+
+
+            // <Route path ="/services" element={<Services />}> </Route>  
 function App() {
   return (
         <div className="App">
@@ -58,8 +52,7 @@ function App() {
           <Routes>
             <Route path ="/" element={<Home  />}> </Route>
             <Route path =":id" element={<Projects />}> </Route>         
-            <Route path ="/about" element={<About />}> </Route>
-            <Route path ="/services" element={<Services />}> </Route>    
+            <Route path ="/about" element={<About />}> </Route>  
           </Routes>
           <Contact />
           </div>
