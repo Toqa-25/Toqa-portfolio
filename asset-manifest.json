@@ -1,16 +1,34 @@
 {
   "files": {
-    "main.css": "/toqa-portfolio/static/css/main.f855e6bc.css",
-    "main.js": "/toqa-portfolio/static/js/main.3cff2644.js",
-    "static/js/453.0cf896b2.chunk.js": "/toqa-portfolio/static/js/453.0cf896b2.chunk.js",
-    "static/media/logo.svg": "/toqa-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/toqa-portfolio/static/css/main.08719df6.css",
+    "main.js": "/toqa-portfolio/static/js/main.e8b85edc.js",
+    "static/js/453.5a97432c.chunk.js": "/toqa-portfolio/static/js/453.5a97432c.chunk.js",
+    "static/media/clipboard-landing-page.png": "/toqa-portfolio/static/media/clipboard-landing-page.e672421604ae94a9b8b9.png",
+    "static/media/coffe-website.png": "/toqa-portfolio/static/media/coffe-website.94e34f3cfcbd600245c6.png",
+    "static/media/Interno-Design.png": "/toqa-portfolio/static/media/Interno-Design.b957d562ac20336537c1.png",
+    "static/media/hospital-website.png": "/toqa-portfolio/static/media/hospital-website.0e20fcc6a88b363fc694.png",
+    "static/media/cloud-power.png": "/toqa-portfolio/static/media/cloud-power.1b11cc6543271d1bfe5e.png",
+    "static/media/special-design.png": "/toqa-portfolio/static/media/special-design.65479c0f1032a4fe5ff6.png",
+    "static/media/rocker-templete.png": "/toqa-portfolio/static/media/rocker-templete.4cd0054526b45185a45e.png",
+    "static/media/meet-landing-page.png": "/toqa-portfolio/static/media/meet-landing-page.818dfe6198012d4cdb61.png",
+    "static/media/toqa-Js-Portfolio.png": "/toqa-portfolio/static/media/toqa-Js-Portfolio.fa973777c5f482d7ccc0.png",
+    "static/media/luxstate.png": "/toqa-portfolio/static/media/luxstate.287c6761c858f9a0c705.png",
+    "static/media/simply-agency.png": "/toqa-portfolio/static/media/simply-agency.4f2faf41173cefe26460.png",
+    "static/media/review-1.jpg": "/toqa-portfolio/static/media/review-1.79b512013941a7978826.jpg",
+    "static/media/review-2.jpg": "/toqa-portfolio/static/media/review-2.a4ec8764876d80c4cdb6.jpg",
+    "static/media/elzero-academy.png": "/toqa-portfolio/static/media/elzero-academy.49117d2d2d370f0df33e.png",
+    "static/media/HangMan-Game.png": "/toqa-portfolio/static/media/HangMan-Game.58f8187a267a0bc7cd69.png",
+    "static/media/fetch-repos.png": "/toqa-portfolio/static/media/fetch-repos.c83f40daeb5de64c8801.png",
+    "static/media/Memory-Game.png": "/toqa-portfolio/static/media/Memory-Game.5c10ecd176d4fa00480b.png",
+    "static/media/bondi.png": "/toqa-portfolio/static/media/bondi.77635a8adb03e82c54a1.png",
+    "static/media/travel-website.png": "/toqa-portfolio/static/media/travel-website.20118450d0ec5f512c7c.png",
     "index.html": "/toqa-portfolio/index.html",
-    "main.f855e6bc.css.map": "/toqa-portfolio/static/css/main.f855e6bc.css.map",
-    "main.3cff2644.js.map": "/toqa-portfolio/static/js/main.3cff2644.js.map",
-    "453.0cf896b2.chunk.js.map": "/toqa-portfolio/static/js/453.0cf896b2.chunk.js.map"
+    "main.08719df6.css.map": "/toqa-portfolio/static/css/main.08719df6.css.map",
+    "main.e8b85edc.js.map": "/toqa-portfolio/static/js/main.e8b85edc.js.map",
+    "453.5a97432c.chunk.js.map": "/toqa-portfolio/static/js/453.5a97432c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.3cff2644.js"
+    "static/css/main.08719df6.css",
+    "static/js/main.e8b85edc.js"
   ]
 }
