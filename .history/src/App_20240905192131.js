@@ -15,7 +15,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 
-// <Route path ="/services" element={<Services />}> </Route>  
+
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
             <Route path ="/" element={<Home  />}> </Route>
             <Route path =":id" element={<Projects />}> </Route>         
             <Route path ="/about" element={<About />}> </Route>
-              
+            <Route path ="/services" element={<Services />}> </Route>    
           </Routes>
           <Contact />
           </div>

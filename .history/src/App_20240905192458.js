@@ -15,7 +15,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons'
 import { fas } from '@fortawesome/free-solid-svg-icons'
 import { far } from '@fortawesome/free-regular-svg-icons'
 
-// <Route path ="/services" element={<Services />}> </Route>  
+
 
 function App() {
   return (
