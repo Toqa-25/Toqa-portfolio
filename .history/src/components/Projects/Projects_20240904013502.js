@@ -9,8 +9,6 @@ const Projects = () => {
    const param = useParams()
     let paramName = param.id
     let selectedProjects = projectsData[paramName]
-    console.log (projectsData)
-    console.log (selectedProjects)
     const [hideList , setHideList] = useState(true)
     const hideShowListFun = () => {
       setHideList(!hideList)

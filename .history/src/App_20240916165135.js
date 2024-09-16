@@ -23,11 +23,12 @@ function App() {
           <BrowserRouter>
             <Nav />
             <Routes>
-              <Route path ="/" element={<Home  />}> </Route>
-              <Route path =":id" element={<Projects />}> </Route>         
-              <Route path ="/about" element={<About />}> </Route>                
-            </Routes>
-            <Contact />
+            <Route path ="/" element={<Home  />}> </Route>
+                <Route path =":id" element={<Projects />}> </Route>         
+                <Route path ="/about" element={<About />}> </Route>
+                  
+              </Routes>
+              <Contact />
           </BrowserRouter>
         </div>
       );

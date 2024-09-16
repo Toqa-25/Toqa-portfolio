@@ -10,7 +10,7 @@ const Projects = () => {
     let paramName = param.id
     let selectedProjects = projectsData[paramName]
     console.log (projectsData)
-    console.log (selectedProjects)
+    console.log (projectsData)
     const [hideList , setHideList] = useState(true)
     const hideShowListFun = () => {
       setHideList(!hideList)
@@ -48,19 +48,7 @@ const Projects = () => {
         </ul>
       </div>
       <div className="Projects-items mains">
-      {selectedProjects.map((item , index) => {
-        return (
-          <div className="flex-column project-item" key={index}>
-            <img src={ require(`./../../images/portfolio/${item.projectImg}`)} alt="" className="project-img" />
-            <h4 className="capitalize project-name">
-              {item.projectName} 
-              <Link className="arrow-icon icon project-link" to={item.projectURL}>
-                <FontAwesomeIcon icon="fa-solid fa-arrow-right" />             
-              </Link>
-            </h4>          
-          </div>
-            )
-          })}
+    
       </div>
     </div>
   )

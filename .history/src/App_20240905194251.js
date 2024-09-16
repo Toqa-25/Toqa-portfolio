@@ -20,15 +20,14 @@ import { far } from '@fortawesome/free-regular-svg-icons'
 function App() {
   return (
         <div className="App">
-          <BrowserRouter>
-            <Nav />
-            <Routes>
-              <Route path ="/" element={<Home  />}> </Route>
-              <Route path =":id" element={<Projects />}> </Route>         
-              <Route path ="/about" element={<About />}> </Route>                
-            </Routes>
-            <Contact />
-          </BrowserRouter>
+          <Nav />
+          <Routes>
+            <Route path ="/" element={<Home  />}> </Route>
+            <Route path =":id" element={<Projects />}> </Route>         
+            <Route path ="/about" element={<About />}> </Route>
+              
+          </Routes>
+          <Contact />
         </div>
       );
     }
