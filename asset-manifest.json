@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/toqa-portfolio/static/css/main.08719df6.css",
-    "main.js": "/toqa-portfolio/static/js/main.e8b85edc.js",
+    "main.js": "/toqa-portfolio/static/js/main.d25627eb.js",
     "static/js/453.5a97432c.chunk.js": "/toqa-portfolio/static/js/453.5a97432c.chunk.js",
     "static/media/clipboard-landing-page.png": "/toqa-portfolio/static/media/clipboard-landing-page.e672421604ae94a9b8b9.png",
     "static/media/coffe-website.png": "/toqa-portfolio/static/media/coffe-website.94e34f3cfcbd600245c6.png",
@@ -24,11 +24,11 @@
     "static/media/travel-website.png": "/toqa-portfolio/static/media/travel-website.20118450d0ec5f512c7c.png",
     "index.html": "/toqa-portfolio/index.html",
     "main.08719df6.css.map": "/toqa-portfolio/static/css/main.08719df6.css.map",
-    "main.e8b85edc.js.map": "/toqa-portfolio/static/js/main.e8b85edc.js.map",
+    "main.d25627eb.js.map": "/toqa-portfolio/static/js/main.d25627eb.js.map",
     "453.5a97432c.chunk.js.map": "/toqa-portfolio/static/js/453.5a97432c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08719df6.css",
-    "static/js/main.e8b85edc.js"
+    "static/js/main.d25627eb.js"
   ]
 }
