@@ -1,0 +1,18 @@
+.services.flex-column {
+    gap: 50px;
+}
+.services-content.flex-column {
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    /* gap: 50px; */
+}
+.services-header {
+    font-style: italic;
+    font-weight: 300;
+    font-family: cursive;
+}
+.icon-img {
+    width: 40px;
+    height: 40px;
+}

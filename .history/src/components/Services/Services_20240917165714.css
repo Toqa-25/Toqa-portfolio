@@ -1,0 +1,15 @@
+.services.flex-column {
+    gap: 50px;
+}
+.services-content.flex-column {
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    /* gap: 50px; */
+}
+
+.icon-img {
+    width: 40px;
+    height: 40px;
+}
