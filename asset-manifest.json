@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/toqa-portfolio/static/css/main.08719df6.css",
-    "main.js": "/toqa-portfolio/static/js/main.d25627eb.js",
+    "main.css": "/toqa-portfolio/static/css/main.2cdc6f1f.css",
+    "main.js": "/toqa-portfolio/static/js/main.1125df0c.js",
     "static/js/453.5a97432c.chunk.js": "/toqa-portfolio/static/js/453.5a97432c.chunk.js",
     "static/media/clipboard-landing-page.png": "/toqa-portfolio/static/media/clipboard-landing-page.e672421604ae94a9b8b9.png",
     "static/media/coffe-website.png": "/toqa-portfolio/static/media/coffe-website.94e34f3cfcbd600245c6.png",
@@ -22,13 +22,14 @@
     "static/media/Memory-Game.png": "/toqa-portfolio/static/media/Memory-Game.5c10ecd176d4fa00480b.png",
     "static/media/bondi.png": "/toqa-portfolio/static/media/bondi.77635a8adb03e82c54a1.png",
     "static/media/travel-website.png": "/toqa-portfolio/static/media/travel-website.20118450d0ec5f512c7c.png",
+    "static/media/wordpress.svg": "/toqa-portfolio/static/media/wordpress.bf9006f84d8c1cfc67d95244abf5d4f4.svg",
     "index.html": "/toqa-portfolio/index.html",
-    "main.08719df6.css.map": "/toqa-portfolio/static/css/main.08719df6.css.map",
-    "main.d25627eb.js.map": "/toqa-portfolio/static/js/main.d25627eb.js.map",
+    "main.2cdc6f1f.css.map": "/toqa-portfolio/static/css/main.2cdc6f1f.css.map",
+    "main.1125df0c.js.map": "/toqa-portfolio/static/js/main.1125df0c.js.map",
     "453.5a97432c.chunk.js.map": "/toqa-portfolio/static/js/453.5a97432c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08719df6.css",
-    "static/js/main.d25627eb.js"
+    "static/css/main.2cdc6f1f.css",
+    "static/js/main.1125df0c.js"
   ]
 }
