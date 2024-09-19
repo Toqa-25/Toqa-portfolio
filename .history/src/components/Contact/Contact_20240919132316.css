@@ -1,0 +1,50 @@
+@import './../Main//Main.css' ;
+
+.contact {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+.contact-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap:wrap;
+}
+.contact-list-item {
+    /* flex:1; */
+}
+.contact-list-item a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+    box-shadow: 0 0 3px #333;
+    /*background: var( --special-grid-color , linear-gradient(90deg,  rgba(253,29,191,1) 50%, #eee 100%));
+    */border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.contact-icon{
+    color:#8fbcbc;
+}
+.contact-list-item a {
+    
+}
+
+
+
+/* 
+    npm install gh-pages --save-dev
+    
+    
+    
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d  build", 
+    "homepage":"https://Toqa-25.github.io/toqa_portfolio-react-", 
+    */

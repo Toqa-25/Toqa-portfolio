@@ -1,0 +1,25 @@
+import "./../Main/"
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+.skill-bar {
+    width: 250px;
+    height: 10px;
+    background-color: #eee;
+    border-radius: 4px;
+    position:relative;
+    overflow:hidden;
+}
+.skill-bar::before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width: attr(skill-progress);
+    height: 100%;
+    background-color: var(special-color);
+    
+}

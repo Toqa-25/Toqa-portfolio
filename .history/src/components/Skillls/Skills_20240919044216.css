@@ -1,0 +1,40 @@
+@import "./../Main/Main.css" ;
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+.skill-bar {
+    width: 250px;
+    height: 10px;
+    background-color: #eee;
+    border-radius: 4px;
+    position:relative;
+    overflow:hidden;
+}
+progress {
+    border-radius: 7px; 
+    width: 80%;
+    height: 22px;
+    margin-left: -11.5%;
+    box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
+  }
+  progress::-webkit-progress-bar {
+    background-color: yellow;
+    border-radius: 7px;
+  }
+  progress::-webkit-progress-value {
+    background-color: blue;
+  }
+/* .skill-bar::before {
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width: 50%;
+    height: 100%;
+    background-color: var(--special-color , aque);
+    
+} */

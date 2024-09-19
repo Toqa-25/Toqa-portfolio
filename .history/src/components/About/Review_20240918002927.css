@@ -1,0 +1,11 @@
+.clients-reviews {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 25px;
+    /* width: 100%; */
+    max-width: 600px;
+    justify-content: center;
+}
+.review-img img {
+    border-radius: 15px;
+}

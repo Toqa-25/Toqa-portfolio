@@ -1,0 +1,47 @@
+@import "./../Main/Main.css" ;
+
+.skill-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+.skill-name{
+    font-size: 20px;
+}
+
+progress {
+    width: 250px;
+    height: 10px;
+    background-color: #eee;
+    border-radius: 4px;
+    position:relative;
+    /*overflow:hidden;
+    */  :;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+progress::-webkit-progress-bar {
+      border-radius: 4px;
+    background-color: #333;
+  }
+  progress::-webkit-progress-value {
+    /*background-color: var(--main-color);
+    */background-image: var(--special-grid-color);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.skill-bar::before {
+    content: attr(prog);
+    position: absolute;
+    top: -30px;
+    right: 6px;
+    font-size: 20px;
+    color:var(--main-color)
+    
+}
