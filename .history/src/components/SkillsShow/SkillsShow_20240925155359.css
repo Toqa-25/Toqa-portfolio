@@ -1,0 +1,40 @@
+.skillShow-items {
+    display: flex;
+    gap: 20px;
+}
+.skillShow-item {
+    box-shadow:0 0 5px #333;
+    display: flex;
+    gap: 10px;
+   
+}
+.skillShow-item img{
+    animation:shillsShow 4s infinite ;
+    -webkit-animation:shillsShow 4s infinite ;
+    animation-direction: alternate;
+    width:30px;
+    height:30px;
+}
+.skillShow-item img:nth-child(2) {
+    animation-delay: .5s;
+}
+.skillShow-item img:nth-child(3) {
+    animation-delay: 1s;
+}
+.skillShow-item img:nth-child(4) {
+    animation-delay: 1.5s;
+}
+.skillShow-item img:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+@keyframes shillsShow{
+    100%{
+        transform:translatey(-20px)    ;
+        -webkit-transform:translatey(-20px)    ;
+        -moz-transform:translatey(-20px)    ;
+        -ms-transform:translatey(-20px)    ;
+        -o-transform:translatey(-20px)    ;
+}
+
+}

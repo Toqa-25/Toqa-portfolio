@@ -1,0 +1,80 @@
+.skillShow-items {
+    display: flex;
+    gap: 20px;
+}
+.skillShow-item {
+    box-shadow: 0 0 5px #333;
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    align-items: flex-end;
+   
+}
+.skillShow-item img{
+    display: block;
+  
+    width: 30px;
+    height: 30px;
+    border: 1px solid;
+}
+.skillShow-item img:nth-child(1) {
+    animation: shillsShow1 8s  linear infinite alternate;
+    -webkit-animation: shillsShow1 8s  linear infinite alternate;
+}
+.skillShow-item img:nth-child(2) {
+    animation: shillsShow2 4s  linear infinite alternate ;
+    -webkit-animation: shillsShow2 4s  linear infinite alternate ;
+    animation-delay: -2s;
+}
+.skillShow-item img:nth-child(3) {
+    animation: shillsShow1 4s  linear  infinite alternate;
+    -webkit-animation: shillsShow1 4s  linear  infinite alternate;
+    animation-delay: -1s;
+}
+.skillShow-item img:nth-child(4) {
+    animation: shillsShow2 5s linear  infinite alternate;
+    -webkit-animation: shillsShow2 5s linear  infinite alternate;
+    animation-delay: -2s;
+}
+.skillShow-item img:nth-child(5) {
+    animation: shillsShow1 4s linear  infinite alternate ;
+    -webkit-animation: shillsShow1 4s linear  infinite alternate ;
+    animation-delay: -10s;
+}
+.skillShow-item img:nth-child(6) {
+    animation: shillsShow2 3s linear  infinite alternate ;
+    -webkit-animation: shillsShow2 3s linear  infinite alternate ;
+    animation-delay: -5s;
+}
+.skillShow-item img:nth-child(7) {
+    animation: shillsShow1 2s linear  infinite alternate ;
+    -webkit-animation: shillsShow1 2s linear  infinite alternate ;
+    animation-direction: alternate;
+    animation-delay:-2s;
+}
+.skillShow-item img:nth-child(8) {
+    animation: shillsShow2 1s linear  infinite alternate ;
+    -webkit-animation: shillsShow2 1s linear  infinite alternate ;
+    animation-delay: -1s;
+}
+
+@keyframes shillsShow1{
+    100%{
+        transform:translatey(-20px)    ;
+        -webkit-transform:translatey(-20px)    ;
+        -moz-transform:translatey(-20px)    ;
+        -ms-transform:translatey(-20px)    ;
+        -o-transform:translatey(-20px)    ;
+}
+
+}
+@keyframes shillsShow2{
+    100%{
+        transform:translatey(-20px)    ;
+        -webkit-transform:translatey(-20px)    ;
+        -moz-transform:translatey(-20px)    ;
+        -ms-transform:translatey(-20px)    ;
+        -o-transform:translatey(-20px)    ;
+}
+
+}

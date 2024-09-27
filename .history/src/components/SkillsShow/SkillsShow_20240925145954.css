@@ -1,0 +1,7 @@
+.skillShow-items {
+    display: flex;
+    gap: 20px;
+}
+.skillShow-item {
+    box-shadow:0 0 5px #333;
+}
