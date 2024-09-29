@@ -37,13 +37,13 @@ const Nav = () => {
                     </div>
                     <ul className={"header-list flex-column" }>
                         <li className="header-list-item special-color" onClick={hideHeaderFun}>
-                            <NavLink to="/projects" className="special-color"> 
+                            <NavLink to="/toqa-projects" className="special-color"> 
                                 <img src={Folder} alt="" />                             
                                  <span className="sec-name"> Projects </span> 
                             </NavLink>
                                  </li>
                         <li className="header-list-item  user" onClick={hideHeaderFun}>
-                            <NavLink to="/about" >                              
+                            <NavLink to="/about-toqa" >                              
                                  <img src={Wuser} alt="" />                             
                                 <span className="sec-name"> about me </span>  
                             </NavLink>

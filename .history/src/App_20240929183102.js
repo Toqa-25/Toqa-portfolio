@@ -24,7 +24,8 @@ function App() {
           <BrowserRouter>
             <Nav />
             <Routes>
-              <Route path ="/toqa-portfolio" element={<Home  />}> </Route>
+              <Route path ="/toqa-portfolio" element={<Home  />}>
+               </Route>
               <Route path =":id" element={<Projects />}> </Route>         
               <Route path ="/about" element={<About />}> </Route> 
               <Route path ="/services" element={<Services />}> </Route>                     

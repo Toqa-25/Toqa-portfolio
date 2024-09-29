@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
-import { Link , Outlet } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import './About.css'
 import Skills from '../Skillls/Skills'
@@ -30,6 +30,7 @@ const About = () => {
         
         </div>
         <Skills />
+       <Outlet />
       </div>
     
   )
