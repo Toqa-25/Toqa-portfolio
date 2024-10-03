@@ -21,10 +21,10 @@ import SkillsShow from './components/SkillsShow/SkillsShow';
 function App() {
   return (
         <div className="App">
-          <BrowserRouter basename="/toqa-portfolio">
+          <BrowserRouter >
             <Nav />
             <Routes>
-              <Route path ="/"  element={<Home  />}> </Route>
+              <Route path ="/toqa-portfolio"  element={<Home  />}> </Route>
               <Route path =":id" element={<Projects />}> </Route>         
               <Route path ="/about" element={<About />}> </Route> 
               <Route path ="/services" element={<Services />}> </Route>                     

@@ -33,7 +33,7 @@ const Nav = () => {
                 </div>  
                 <div className={"header flex-column " + (showHeader && " show-header")} >                      
                     <div className="logo" onClick={hideHeaderFun}>
-                        <Link to="/"><span className="special-font special-color">t</span>oqa</Link>               
+                        <Link to="/><span className="special-font special-color">t</span>oqa</Link>               
                     </div>
                     <ul className={"header-list flex-column" }>
                         <li className="header-list-item special-color" onClick={hideHeaderFun}>

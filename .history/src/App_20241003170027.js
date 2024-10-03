@@ -1,6 +1,6 @@
 import './App.css';
 import {React , useState} from 'react'
-import {Routes , BrowserRouter, HashRouter, Route , Link} from 'react-router-dom'
+import {Routes , BrowserRouter, Has Route , Link} from 'react-router-dom'
 import Contact from './components/Contact/Contact'
 import Home from './components/Home/Home'
 import About from './components/About/About'
@@ -21,10 +21,10 @@ import SkillsShow from './components/SkillsShow/SkillsShow';
 function App() {
   return (
         <div className="App">
-          <BrowserRouter basename="/toqa-portfolio">
+          <BrowserRouter>
             <Nav />
             <Routes>
-              <Route path ="/"  element={<Home  />}> </Route>
+              <Route path ="/toqa-portfolio" element={<Home  />}> </Route>
               <Route path =":id" element={<Projects />}> </Route>         
               <Route path ="/about" element={<About />}> </Route> 
               <Route path ="/services" element={<Services />}> </Route>                     
