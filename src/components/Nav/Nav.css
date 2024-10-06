@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 
 
 @import './../Main//Main.css' ;
+=======
+:root{
+  --main-color:white;
+  --special-color: rgba(253,29,191,1) ;
+  --special-grid-color:linear-gradient(90deg,  rgba(253,29,191,1) 50%, #eee 100%);
+}
+
+>>>>>>> d241279 (test uploading first react app)
 .header {
   width: 250px;
   height: 100vh;
@@ -8,6 +17,7 @@
   border-radius: 5px;
   padding: 25px 15px;
   position: fixed;
+<<<<<<< HEAD
   transition: 1.5s;
   -webkit-transition: 1.5s;
   -moz-transition: 1.5s;
@@ -15,6 +25,15 @@
   -o-transition: 1.5s;
   z-index: 4;
   box-shadow: 0 0 6px var(--special-color);
+=======
+  transition: 2s;
+  -webkit-transition: 2s;
+  -moz-transition: 2s;
+  -ms-transition: 2s;
+  -o-transition: 2s;
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(253, 29, 191, 1);
+>>>>>>> d241279 (test uploading first react app)
 }
 .bar{
     display: none;
@@ -29,7 +48,11 @@
     border-radius: 50%;
     top: -50px;
     left: -50px;
+<<<<<<< HEAD
     z-index:5;
+=======
+    z-index:2;
+>>>>>>> d241279 (test uploading first react app)
   }
   .fa-xmark {
     font-size: 23px;
@@ -40,6 +63,7 @@
     opacity:0;
   }
   
+<<<<<<< HEAD
   .header.flex-column {
     gap:40px;
   }
@@ -47,11 +71,20 @@
     color: var(--main-color, #eee);
   }
 
+=======
+  .header a {
+    color: var(--color, #eee);
+  }
+>>>>>>> d241279 (test uploading first react app)
   .header .logo {
     text-align: center;
     font-size: 40px;
     text-transform: capitalize;
+<<<<<<< HEAD
     color: var(--main-color);
+=======
+    color: #eee;
+>>>>>>> d241279 (test uploading first react app)
     position: relative;
     width: -webkit-fit-content;
     width: -moz-fit-content;
@@ -81,12 +114,20 @@
     width: 25px;
   }
   .header .logo::before {
+<<<<<<< HEAD
     border-image: linear-gradient(  #6f888f , #687f7f ) 50% 50% 0% 0%;
+=======
+    border-image: linear-gradient(rgba(253, 29, 191, 1), #eee) 50% 50% 0% 0%;
+>>>>>>> d241279 (test uploading first react app)
     top: -6px;
     right: -14px;
   }
   .header .logo::after {
+<<<<<<< HEAD
     border-image: linear-gradient(  #6f888f , #687f7f ) 0% 0% 50% 50%;
+=======
+    border-image: linear-gradient(rgba(253, 29, 191, 1), #eee ) 0% 0% 50% 50%;
+>>>>>>> d241279 (test uploading first react app)
     bottom: -6px;
     left: -13px;
   }
@@ -104,13 +145,17 @@
     font-size: 18px;
     cursor: pointer;
     margin-left: 20px;
+<<<<<<< HEAD
     padding: 5px 10px;
+=======
+>>>>>>> d241279 (test uploading first react app)
   }
   .header .header-list .header-list-item a{
     text-transform: capitalize;
     display: flex;
     gap: 10px;
     align-items: center;
+<<<<<<< HEAD
     font-size: 18px;
     padding: 4px;
   }
@@ -142,6 +187,18 @@
   --webkit-background-clip: text;
   color: transparent;
 }
+=======
+  }
+ 
+
+  .header .header-list .header-list-item a.active span {
+    text-transform: capitalize;
+    background: var( --special-grid-color , linear-gradient(90deg,  rgba(253,29,191,1) 50%, #eee 100%));
+    background-clip: text;
+    --webkit-background-clip: text;
+    color: transparent;
+  }
+>>>>>>> d241279 (test uploading first react app)
  
   @media  (max-width: 767px) {
     .nav{

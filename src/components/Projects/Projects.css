@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 @import './../Main//Main.css' ;
 
+=======
+:root{
+    --main-color:white;
+    --special-color: rgba(253,29,191,1) ;
+    --special-grid-color:linear-gradient(90deg,  rgba(253,29,191,1) 50%, #eee 100%);
+}
+>>>>>>> d241279 (test uploading first react app)
 .projects-list {
     position: fixed;
     right: 20px;
@@ -54,6 +62,7 @@
     gap: 25px;
     width: 100%;
     justify-content: center;
+<<<<<<< HEAD
     overflow:clip;
 }
 .project-item.flex-column{
@@ -63,6 +72,11 @@
      animation-timeline: view();
     -webkit-animation-timeline: view();
     animation-range: entry 30%;
+=======
+}
+.project-item.flex-column{
+    gap: 5px;
+>>>>>>> d241279 (test uploading first react app)
 }
 .project-img {
     width: 100%;
@@ -79,7 +93,11 @@
 .project-link {
     display: inline-block;
     margin-top: 5px;
+<<<<<<< HEAD
 }
 
 
 
+=======
+}
+>>>>>>> d241279 (test uploading first react app)

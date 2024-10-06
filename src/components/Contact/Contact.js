@@ -4,6 +4,19 @@ import { Link } from 'react-router-dom'
 import './Contact.css'
 
 const Contact = () => {
+<<<<<<< HEAD
+=======
+  
+  // <li class="contact-list-item">
+
+  //         <FontAwesomeIcon icon="fa-brand fa-whatsapp" />
+  //         <span class="contact-item-text capitalize">+201288859104</span>
+  // </li>
+  // <FontAwesomeIcon icon="fa-brands fa-linkedin-in" />
+  // <FontAwesomeIcon icon="fa-brand fa-github" />
+  // <h4 className="contact-header capitalize"> contact me </h4>
+
+>>>>>>> d241279 (test uploading first react app)
   return (
     <div className="contact">
     <ul class="contact-list">

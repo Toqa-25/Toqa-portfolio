@@ -2,7 +2,10 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Home.css'
 import { Link } from 'react-router-dom'
+<<<<<<< HEAD
 import SkillsShow from '../SkillsShow/SkillsShow'
+=======
+>>>>>>> d241279 (test uploading first react app)
 
 // <FontAwesomeIcon icon="fa-solid fa-arrow-right" />
 //  <span className="responsive"></span>
@@ -30,12 +33,20 @@ const Home = () => {
           <p className=" capitalize desc coder-desc ">
               passionate frontend web developer with 3 years of experience creating user friendly websites
               <Link className="arrow-icon icon" to="./projects">
+<<<<<<< HEAD
                 <FontAwesomeIcon icon="fa-solid fa-arrow-right" className="icon" />             
               </Link>
           </p>
           </div>
           
           <SkillsShow />
+=======
+                <FontAwesomeIcon icon="fa-solid fa-arrow-right" />             
+              </Link>
+          </p>
+          </div>
+      
+>>>>>>> d241279 (test uploading first react app)
         </div>
     </div>
   )

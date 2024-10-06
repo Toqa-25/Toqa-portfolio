@@ -1,6 +1,10 @@
 import {React , useState } from 'react';
 import projectsData from './projects.json' ;
+<<<<<<< HEAD
 import { Link,  useParams} from 'react-router-dom';
+=======
+import { Link,  Outlet , useParams} from 'react-router-dom';
+>>>>>>> d241279 (test uploading first react app)
 import './Projects.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
@@ -9,8 +13,11 @@ const Projects = () => {
    const param = useParams()
     let paramName = param.id
     let selectedProjects = projectsData[paramName]
+<<<<<<< HEAD
     console.log (projectsData)
     console.log (selectedProjects)
+=======
+>>>>>>> d241279 (test uploading first react app)
     const [hideList , setHideList] = useState(true)
     const hideShowListFun = () => {
       setHideList(!hideList)
@@ -23,7 +30,11 @@ const Projects = () => {
    
   return (
     <div className="container projects flex-column">
+<<<<<<< HEAD
       <h2 className="capitalize projects-header page-header">my projects </h2>
+=======
+      <h2 className="capitalize projects-header page-header">our projects </h2>
+>>>>>>> d241279 (test uploading first react app)
       <div className="projects-list" >
         <div className="capitalize projects-list-header " onClick={hideShowListFun}> 
           projects 
@@ -55,7 +66,11 @@ const Projects = () => {
             <h4 className="capitalize project-name">
               {item.projectName} 
               <Link className="arrow-icon icon project-link" to={item.projectURL}>
+<<<<<<< HEAD
                 <FontAwesomeIcon icon="fa-solid fa-arrow-right"  className="icon"/>             
+=======
+                <FontAwesomeIcon icon="fa-solid fa-arrow-right" />             
+>>>>>>> d241279 (test uploading first react app)
               </Link>
             </h4>          
           </div>

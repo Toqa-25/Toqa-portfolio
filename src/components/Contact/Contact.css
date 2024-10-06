@@ -1,9 +1,26 @@
+<<<<<<< HEAD
 @import './../Main//Main.css' ;
 
 .contact {
     flex: 1;
     display: flex;
     align-items: center;
+=======
+:root{
+    --main-color:white;
+    --special-color: rgba(253,29,191,1) ;
+    --special-grid-color:linear-gradient(90deg,  rgba(253,29,191,1) 50%, #eee 100%);
+}
+.contact {
+    background-color: #000;
+    width: calc(100% - 250px);
+    margin-left: 250px;
+    padding: 10px 20px;
+    box-shadow: 0 0 1px rgba(253, 29, 191, 1);
+    position: fixed;
+    bottom: 0;
+    z-index: 5;
+>>>>>>> d241279 (test uploading first react app)
 }
 .contact-list {
     display: flex;
@@ -20,6 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     font-size: 25px;
     cursor: pointer;
     box-shadow: 0 0 3px #333;
@@ -57,3 +75,30 @@
     "deploy":"gh-pages -d  build", 
     "homepage":"https://Toqa-25.github.io/toqa_portfolio-react-", 
     */
+=======
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 2px #333;
+    /* background: var( --special-grid-color , linear-gradient(90deg,  rgba(253,29,191,1) 50%, #eee 100%)); */
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.contact-icon.github{
+    color:#333;
+}
+.contact-icon.linkedin{
+    color:#0a66c2;
+}
+.contact-icon.whatsapp{
+    color:#25d366;
+}
+@media (max-width: 767px) {
+    .contact {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+>>>>>>> d241279 (test uploading first react app)

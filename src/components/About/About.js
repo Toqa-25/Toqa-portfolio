@@ -1,9 +1,15 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
+<<<<<<< HEAD
 import { Link , Outlet } from 'react-router-dom'
 
 import './About.css'
 import Skills from '../Skillls/Skills'
+=======
+import { Link } from 'react-router-dom'
+import Reviews from './reviews.json'
+import './About.css'
+>>>>>>> d241279 (test uploading first react app)
 
 
 
@@ -29,7 +35,20 @@ const About = () => {
           </p>
         
         </div>
+<<<<<<< HEAD
         <Skills />
+=======
+        <div className="clients-reviews">
+          {Reviews.map((item , index) => {
+            return (
+              <div className="review-img" key={index} >
+              <img src={ require(`./../../images/reviews/${item.reviewImg}`)} alt="" className="" /> 
+                                  
+              </div >
+                )
+              })}
+        </div>
+>>>>>>> d241279 (test uploading first react app)
       </div>
     
   )

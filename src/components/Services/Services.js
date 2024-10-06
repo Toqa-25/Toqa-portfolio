@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import './../Main/Main.css';
 import './Services.css';
@@ -70,6 +71,14 @@ const Services = () => {
         </ul>
       </div>
       <Reviews />
+=======
+import React from 'react'
+
+const Services = () => {
+  return (
+    <div className="container">
+      Services
+>>>>>>> d241279 (test uploading first react app)
     </div>
   )
 }
