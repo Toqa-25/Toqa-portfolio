@@ -1,0 +1,232 @@
+:root{
+    --main-color:white;
+<<<<<<< HEAD
+    --main-color:#687f7f;
+    --special-color: #61dafb ;
+    --special-grid-color:linear-gradient(90deg,  #61dafb 50%, #687f7f 100%);
+    --special-color:#d98e95;
+    --special-color: #61dafb;
+=======
+    --special-color: rgba(253,29,191,1) ;
+    --special-grid-color:linear-gradient(90deg,  rgba(253,29,191,1) 50%, #eee 100%);
+>>>>>>> d241279 (test uploading first react app)
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+<<<<<<< HEAD
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: var(--main-color, #5f5b5baf);
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: var(--main-color, #5f5b5baf);
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: var(--main-color, #5f5b5baf);;
+	background-color:rgb(45, 75, 75);
+    cursor:pointer;
+}
+=======
+>>>>>>> d241279 (test uploading first react app)
+ul{
+    list-style:none;
+}
+a {
+    text-decoration: none;
+    cursor:pointer;
+<<<<<<< HEAD
+    color: var(--main-color, #eee);
+=======
+    color: var(--color, #eee);
+>>>>>>> d241279 (test uploading first react app)
+}
+img{
+    max-width:100%;
+}
+.desc{
+    line-height: 1.5;
+    font-style: italic;
+<<<<<<< HEAD
+    animation: fullfade linear 1s;
+    -webkit-animation: fullfade linear 1s;
+    animation-timeline: view();
+    -webkit-animation-timeline: view();
+    animation-range: entry 30%;
+=======
+    
+>>>>>>> d241279 (test uploading first react app)
+}
+.page-header{
+    background-image: var( --special-grid-color , linear-gradient(90deg,  rgba(253,29,191,1) 50%, #eee 100%));
+    background-clip:text;
+    color:transparent;
+<<<<<<< HEAD
+    height:50px;
+    padding:10px 5px;
+=======
+>>>>>>> d241279 (test uploading first react app)
+
+}
+.special-color{
+    background-image: var( --special-grid-color , linear-gradient(90deg,  rgba(253,29,191,1) 50%, #eee 100%));
+    background-clip:text;
+    color:transparent;
+}
+.special-font {
+    font-family: "Clicker Script", cursive;
+}
+.sec-special-font {
+    font-family: "Edu VIC WA NT Beginner", cursive;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+.capitalize {
+    text-transform: capitalize;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+.section{
+    width: 100%;
+    background-color: #000;
+}
+.container{
+    width: calc(100% - 250px);
+    margin-left: 250px;
+    min-height: 100vh;
+    padding:25px;
+    background-color: #000;
+    position:relative;
+    color: var(--main-color, #eee);
+    text-align: center;
+}
+<<<<<<< HEAD
+.icon {
+    color:#8fbcbc
+}
+.btn {
+    width: fit-content;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 600;
+    height: fit-content;
+    padding: 7px;
+    min-width: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+=======
+.btn {
+    width: fit-content;
+    min-width: 80px; 
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+>>>>>>> d241279 (test uploading first react app)
+    border-radius: 5px;
+    cursor: pointer;
+    transform: translateZ(5px);
+    background-image: var( --special-grid-color , linear-gradient(90deg,  rgba(253,29,191,1) 50%, #eee 100%));
+    color: #000;
+    box-shadow: 0 0 3px #fee;
+    outline: none;
+    border: none;
+}
+.contact-btn {
+<<<<<<< HEAD
+    display: none;
+    z-index: 3;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+.contact-btn a {
+    color: #000;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    /* font-family: revert; */
+}
+
+>>>>>>> d241279 (test uploading first react app)
+
+
+@media  (max-width: 767px) {
+    .container {
+      width:100%;
+      margin:0 auto;
+  }
+<<<<<<< HEAD
+  .contact-btn {
+    display: flex;
+    }
+  }
+
+  @keyframes fade{
+    from{
+        opacity:.5;
+        transform: scale(.4);
+        -webkit-transform: scale(.4);
+        -moz-transform: scale(.4);
+        -ms-transform: scale(.4);
+        -o-transform: scale(.4);
+}
+    to{
+        opacity:1;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+}
+}
+  @keyframes fullfade{
+    from{
+        opacity:.4;
+}
+    to{
+        opacity:1;
+}
+}
+
+=======
+  }
+
+
+/* draft Style */
+/* a{
+    background-image: linear-gradient(90deg, rgba(170,99,217,1) 10%, rgba(253,29,191,1) 50%, rgba(69,252,87,1) 100%);
+    background-clip:text;
+    --webkit-background-clip:text;
+    --webkit-text-fill-color:transparent;
+} */
+/* span{
+    font-family: "Clicker Script", cursive;
+} */
+>>>>>>> d241279 (test uploading first react app)
