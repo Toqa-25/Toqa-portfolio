@@ -14,7 +14,7 @@ const About = () => {
         <h2 className="capitalize page-header">About me </h2>
         <div className="about-info">
           <p className=" capitalize desc coder-desc ">
-          I'm a passionate Frontend Developer with 3 years of experience turning ideas into responsive, user-friendly web interfaces. I specialize in converting designs into clean, efficient code using HTML, CSS, JavaScript, and Bootstrap. 
+          "Hi, I'm Toqa, a passionate Frontend Developer with 3 years of experience turning ideas into responsive, user-friendly web interfaces. I specialize in converting designs into clean, efficient code using HTML, CSS, JavaScript, and Bootstrap. Let's build something amazing together!"
             <Link className="arrow-icon icon" to="./projects">
               <FontAwesomeIcon icon="fa-solid fa-arrow-right" />             
             </Link>

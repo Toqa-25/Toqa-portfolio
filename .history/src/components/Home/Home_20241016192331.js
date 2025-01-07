@@ -25,7 +25,7 @@ const Home = () => {
           <span className="special-color coder-name  "> toqa, </span>  
           </h2>
           <p className=" capitalize desc coder-desc ">
-              a passionate Frontend Developer with 3 years of experience turning ideas into responsive, user-friendly web interfaces. I specialize in converting designs into clean, efficient code using HTML, CSS, JavaScript, and Bootstrap. Let's build something amazing together
+        "Hi, I'm Toqa, a passionate Frontend Developer with 3 years of experience turning ideas into responsive, user-friendly web interfaces. I specialize in converting designs into clean, efficient code using HTML, CSS, JavaScript, and Bootstrap. Let's build something amazing together!"
               <Link className="arrow-icon icon" to="./projects">
                 <FontAwesomeIcon icon="fa-solid fa-arrow-right" className="icon" />             
               </Link>
