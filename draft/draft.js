@@ -91,3 +91,5 @@
 // <span className="skill scss" data-text="scss">scss</span>
 // <span className="skill react" data-text="react">react</span>
 // </div>
+// "homepage": "https://Toqa-25.github.io/toqa-portfolio",
+// "name": "toqa_portfolio",
